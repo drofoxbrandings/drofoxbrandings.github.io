@@ -6,8 +6,8 @@ body {
   height: 100vh;
 }
 .item-container {
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
 }
 .item {
   height: 100%;
@@ -76,4 +76,17 @@ body {
   border-radius: 100%;
   clip-path: polygon(15% 50%, 100% 50%, 100% 100%, 100% 100%);
   position: absolute;
+}
+
+.line {
+  width: 100px;
+  position: absolute;
+  height: 25px;
+  background: #4885ed;
+  right: 0;
+  border-bottom-right-radius: 10px;
+}
+
+.relative {
+  position: relative;
 }

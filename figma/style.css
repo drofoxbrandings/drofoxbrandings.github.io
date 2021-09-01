@@ -6,8 +6,8 @@ body {
   height: 100vh;
 }
 .item-container {
-  width: 600px;
-  height: 600px;
+  width: 350px;
+  height: 350px;
 }
 .item {
   height: 100%;
@@ -46,8 +46,8 @@ body {
 .third-elem,
 .fourth-elem,
 .fifth-elem {
-  height: 100px;
-  width: 100px;
+  height: 75px;
+  width: 75px;
 }
 .first-elem {
   background-color: #f24e1e;

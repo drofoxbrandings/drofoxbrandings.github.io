@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.item-container {
+  width: 400px;
+  height: 400px;
+}
+.item {
+  height: 100%;
+}
+.flex {
+  display: flex;
+}
+.item-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-dark {
+  background-color: #1a1a2e;
+}
+.bg-dark-dim {
+  background-color: #1a1a2e;
+}
+
+.skeou-shadow {
+  border-radius: 38px;
+  background: linear-gradient(145deg, #1c1c31, #171729);
+  box-shadow: 17px 17px 34px #161626, -17px -17px 34px #1e1e36;
+  border: 1px solid #232346;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.relative {
+  position: relative;
+}
+
+.circle {
+  background: #22bcb5;
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+
+.card-base {
+  width: 65%;
+  height: 40%;
+  background: #ffffff0f;
+  z-index: 9;
+  backdrop-filter: blur(8px);
+  border-radius: 18px;
+  box-shadow: 0px 0px 20px #00000057;
+}
+
+.stripe {
+  width: 100%;
+  height: 30px;
+  background: #ffffff63;
+  position: absolute;
+  top: 20%;
+}
+.master-card:before {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: #ffffff85;
+  position: absolute;
+  bottom: 15%;
+  right: 21%;
+  border-radius: 100%;
+}
+.master-card:after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  background: #ffffff85;
+  position: absolute;
+  bottom: 15%;
+  right: 12%;
+  border-radius: 100%;
+}
+
+.name-line:before {
+  width: 35%;
+  height: 3px;
+  background: #ffffff73;
+  position: absolute;
+  content: "";
+  bottom: 25%;
+  left: 8%;
+}
+
+.name-line:after {
+  width: 25%;
+  height: 3px;
+  background: #ffffff73;
+  position: absolute;
+  content: "";
+  bottom: 18%;
+  left: 8%;
+}
